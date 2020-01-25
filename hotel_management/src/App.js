@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Logo from './bkg.jpg';
+import SearchBar from './Components/SearchBar';
+import Navigation from './Components/Navigation';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+class App extends React.Component {
+render(){
+return (  
+  <div className="home">
+    <div className="container">
+      <nav>
+      <div className="row">
+  <div className="col-sm-6 text-left">
+    <label class="title">Hotel Management</label>
+  </div>
+  <div className="col-sm-6 text-right">
+  <Navigation/> 
+  </div>
+      </div>
+      </nav>
+      <div className="banner">
+        <img src={Logo} />
+      <SearchBar />
+      </div>
     </div>
-  );
+  </div>
+      
+ 
+)
+};
 }
-
 export default App;
