@@ -1,0 +1,60 @@
+{
+    "Hotel_Details" : [
+    {
+        "name": "The Ritz-Carlton",
+        "rating": 4.5,
+        "address": "99, Residency Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025",
+        "mapUrl": "https://maps.google.com/maps?gl=us&hl=en&um=1&ie=UTF-8&fb=1&sa=X&geocode=KTPvHbR4Fq47MX_IqAsA6Ir-&daddr=The+Ritz-Carlton,+Bangalore,+99,+Residency+Rd,+Shanthala+Nagar,+Ashok+Nagar,+Bengaluru,+Karnataka+560025,+India",
+        "price": "$200",
+        "state":"Bangalore"
+    },
+    {
+        "name": "The Oberoi Bengaluru",
+        "rating": 5,
+        "address": "37-39, MG Road, Yellappa Garden, Yellappa Chetty Layout, Sivanchetti Gardens, Bengaluru, Karnataka 560001",
+        "mapUrl": "https://maps.google.com/maps?gl=us&hl=en&um=1&ie=UTF-8&fb=1&sa=X&geocode=KRnaOlyDFq47Mduyt0KQ9WVw&daddr=The+Oberoi+Bengaluru,+37-39,+MG+Road,+Yellappa+Garden,+Yellappa+Chetty+Layout,+Sivanchetti+Gardens,+Bengaluru,+Karnataka+560001,+India",
+        "price": "$300",
+        "state":"Bangalore"
+    },
+    {
+        "name": "Bengaluru Marriott Hotel Whitefield",
+        "rating": 3,
+        "address": "Plot No 75, 8th Rd, EPIP Zone, Whitefield, Bengaluru, Karnataka 560066, India•+91 80 4943 5000",
+        "mapUrl": "https://maps.google.com/maps?gl=us&hl=en&um=1&ie=UTF-8&fb=1&sa=X&geocode=KYsZkVXxEa47MePkAWsWa31v&daddr=Plot+No+75,+Bengaluru+Marriott+Hotel+Whitefield,+8th+Rd,+EPIP+Zone,+Whitefield,+Bengaluru,+Karnataka+560066,+India",
+        "price": "$100",
+        "state":"Bangalore"
+    },
+    {
+        "name": "JW Marriott Hotel",
+        "rating": 4,
+        "address": "24, 1, Vittal Mallya Rd, KG Halli, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka",
+        "mapUrl": "https://maps.google.com/maps?gl=us&hl=en&um=1&ie=UTF-8&fb=1&sa=X&geocode=KUlgYcR5Fq47MSuoiNsPBuch&daddr=24,+JW+Marriott+Hotel+Bengaluru,+1,+Vittal+Mallya+Rd,+KG+Halli,+Shanthala+Nagar,+Ashok+Nagar,+Bengaluru,+Karnataka+560001,+India",
+        "price": "$120",
+        "state":"Bangalore"
+    },
+    {
+        "name": "Novotel Vijayawada Varun",
+        "rating": 2,
+        "address": "54-14/8, 50, Sri Ramachandra Nagar Main Rd, Bharathi Nagar, Vijayawada, Andhra Pradesh 520008, India•+91 866 668 8999",
+        "mapUrl": "https://maps.google.com/maps?gl=us&hl=en&um=1&ie=UTF-8&fb=1&sa=X&geocode=KfOHHfrN-jU6MWhchZTlL6U_&daddr=54-14/8,+Novotel+Vijayawada+Varun,+50,+Sri+Ramachandra+Nagar+Main+Rd,+Bharathi+Nagar,+Vijayawada,+Andhra+Pradesh+520008,+India",
+        "price": "$110",
+        "state":"Vijayawada"
+    },
+    {
+        "name": "Marasa Sarovar Premiere, Tirupati",
+        "rating": 4,
+        "address": "12th Cross, Karakambadi Rd, near AGS Company, Upadhyaya Nagar, Tirupati, Andhra Pradesh 517507, India•+91 877 666 0000",
+        "mapUrl": "https://maps.google.com/maps?gl=us&hl=en&um=1&ie=UTF-8&fb=1&sa=X&geocode=KWFXHAxFSk06MSlMQb0DRUlb&daddr=Marasa+Sarovar+Premiere,+Tirupati,+12th+Cross,+Karakambadi+Rd,+near+AGS+Company,+Upadhyaya+Nagar,+Tirupati,+Andhra+Pradesh+517507,+India",
+        "price": "$110",
+        "state":"Tirupati"
+    },
+    {
+        "name": "Mourya Inn, Ongole",
+        "rating": 3,
+        "address": "Opposit Ongole RTC Bus Stand, Kurnool Rd, Ongole, Andhra Pradesh 523002, India•+91 94407 35656",
+        "mapUrl": "https://maps.google.com/maps?gl=us&hl=en&um=1&ie=UTF-8&fb=1&sa=X&geocode=KQk6Nn-oAUs6MZQwFzmecRHT&daddr=Mourya+Inn,+Ongole,+Opposit+Ongole+RTC+Bus+Stand,+Kurnool+Rd,+Ongole,+Andhra+Pradesh+523002,+India",
+        "price": "$44",
+        "state":"Ongole"
+    }
+]
+}
