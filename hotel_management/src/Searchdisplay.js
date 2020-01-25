@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Filter from './components/filter';
+import Filter from './filter';
 import './index.css';
 import displayData from './Mock_data/Data.json';
 import DataToDisplay from './DataToDisplay'
@@ -14,7 +14,7 @@ constructor(props){
     };
 }
 filteredData(){
-    let filteredData= displayData.Hotel_Details.map(data => {
+    displayData.Hotel_Details.map(data => {
         console.log(data);
     if(data.state == "Ongole"){
         console.log(data);
@@ -35,7 +35,9 @@ render(){
                     <div className="col-sm-9">
                     <div> 
             {this.filteredData}
-        <DataToDisplay filteredData = {this.state.value}/>
+           { displayData.Hotel_Details.map(data =>
+        <DataToDisplay filteredData = {data}/>
+           )}
         </div>
                     </div>
                 </div>

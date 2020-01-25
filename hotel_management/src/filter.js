@@ -27,6 +27,7 @@ return (
 <label>Amenities</label>
 <Facility/>
 </div>
+<button>Apply</button>
 </div>
 );
 }

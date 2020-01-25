@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import Logo from './bkg.jpg';
 import SearchBar from './Components/SearchBar';
 import Navigation from './Components/Navigation';
+import './index.css';
 
 class App extends React.Component {
 render(){
@@ -20,7 +20,7 @@ return (
       </div>
       </nav>
       <div className="banner">
-        <img src={Logo} />
+        {/* <img src={Logo} /> */}
       <SearchBar />
       </div>
     </div>
