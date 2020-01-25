@@ -1,5 +1,5 @@
 import React from 'react';
-import Checkbox from './components/Checkbox';
+import Checkbox from './Checkbox';
 
 class Facility extends React.Component{
 state = { checked: false }
@@ -14,7 +14,7 @@ render() {
             checked={this.state.checked}
             onChange={this.handleCheckboxChange}
         />
-        <span>1000 - 2500</span>
+        <span>Cable/DTH</span>
         </label>
         </li>
         <li>
@@ -23,7 +23,7 @@ render() {
             checked={this.state.checked}
             onChange={this.handleCheckboxChange}
         />
-        <span>2500 - 4000</span>
+        <span>Restaurant On Premises</span>
         </label></li>
         <li>
     <label>
@@ -31,7 +31,7 @@ render() {
             checked={this.state.checked}
             onChange={this.handleCheckboxChange}
         />
-        <span>4000 - 5500</span>
+        <span>Free Wifi</span>
         </label></li>
         <li>
     <label>
@@ -39,7 +39,7 @@ render() {
             checked={this.state.checked}
             onChange={this.handleCheckboxChange}
         />
-        <span>5500 - More</span>
+        <span>Complimentary water</span>
         </label></li>
     </ul>    
     ) 

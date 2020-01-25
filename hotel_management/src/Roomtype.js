@@ -1,5 +1,5 @@
 import React from 'react';
-import Checkbox from './Checkbox';
+import Checkbox from './components/Checkbox';
 
 class Roomtype extends React.Component{
 state = { checked: false }

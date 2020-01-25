@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Filter from './components/filter';
+import Filter from './filter';
 import './index.css';
 
 class Searchdisplay extends React.Component{
