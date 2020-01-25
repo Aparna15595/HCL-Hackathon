@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#search_display .filter .filter_div{
+  background-color: #fff;
+  border-radius: .2rem;
+  box-shadow: 0 0.2rem 0.4rem 0 rgba(0,0,0,.16);
+  margin-bottom: 1.6rem;
+  padding: 30px;
+}
+#search_display .filter .filter_div ul{
+  padding: 0;
+}
+#search_display .filter .filter_div ul li{
+  list-style: none;
+  text-align: left;
+}
+#search_display .filter .filter_div label{
+  font-size: 20px;
+  font-weight: bold;
+}
+#search_display .filter .filter_div label span{
+  font-size: 13px;
+  padding-left: 10px;
+  font-weight: 300;
+}
